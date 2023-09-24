@@ -7,6 +7,9 @@ import NewProducts from "@/components/NewProducts";
 export default function HomePage({featuredProduct,newProducts}) {
   return (
     <div>
+    <a href="https://wa.link/gzlym2" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
       <Header />
       <Featured product={featuredProduct} />
       <NewProducts products={newProducts} />
